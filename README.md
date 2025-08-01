@@ -34,9 +34,9 @@ JWT_SECRET=(your_jwt_secret_key)
 ```
 
 ## Links:
-frontend: 
+frontend: https://catastrophe-frontend.vercel.app
 
-backend: 
+backend: https://catastrophe-backend.onrender.com
 
 ## API Routes:
 - /home
@@ -49,4 +49,4 @@ backend:
 - /create-post
 
 ## Credits to the images:
-All images I'm using are taken by myself or they are from friends (taken with permission) (and then turned into memes).
+All images I'm using are taken by myself or they are from friends (taken with permission) (and then turned into memes (with their permission)).
