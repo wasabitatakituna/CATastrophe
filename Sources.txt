@@ -1,0 +1,19 @@
+Multer:
+https://www.npmjs.com/package/multer
+https://expressjs.com/en/resources/middleware/multer.html
+https://www.geeksforgeeks.org/node-js/multer-npm/
+https://www.geeksforgeeks.org/node-js/react-single-file-upload-with-multer-and-express-js/
+https://www.geeksforgeeks.org/mongodb/upload-and-retrieve-image-on-mongodb-using-mongoose/
+https://medium.com/@hassaanistic/image-handeling-using-multer-in-react-d7fea28e8dc6
+https://cloudinary.com/blog/guest_post/how-to-parse-media-files-with-multer
+- I also asked Felipe to help me figure out Multer because he has previous experience using Multer
+
+syntax for `.findByIdAndUpdate`:
+https://www.geeksforgeeks.org/mongodb/mongoose-findbyidandupdate-function/
+syntax for `.findByIdAndDelete`:
+https://www.geeksforgeeks.org/mongodb/mongoose-findbyidanddelete-function/
+
+CSS (to make the cat ears):
+https://www.w3schools.com/howto/howto_css_shapes.asp
+
+- I also referred to previous assignments to help me
