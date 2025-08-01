@@ -16,7 +16,7 @@ export default function Signup({ signup }) {
         const data = await res.json();
         if (res.ok) {
             signup(data.token);
-            alert("Sign up successful.");
+            alert("Sign up Successful.");
             navigate('/');
         }
         else {
@@ -26,15 +26,19 @@ export default function Signup({ signup }) {
 
     return (
         <form onSubmit={handleSubmit}>
-            <h2>Signup</h2>
+            <h3 className="head">Signup</h3>
             <br/>
+            <label for="signUpUsername">Username:</label>
             <input
+                id="signUpUsername"
                 placeholder="Username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
             />
             <br/>
+            <label for="signUpPassword">Password:</label>
             <input
+                id="signUpPassword"
                 type="password"
                 placeholder="Password"
                 value={password}

@@ -51,8 +51,23 @@ function CreatePost({ token }) {
                 <div className="earHole"/>
             </div>
             <form id="createPost" encType="multipart/form-data" onSubmit={handleSubmit}>
-                <input type="file" id="uploadImage" name="upload-image" onChange={(e) => setImg(e.target.files[0])} required />
-                <input placeholder="text pls" value={text} onChange={(e) => setText(e.target.value)} />
+                <label for="uploadImage">Upload an Image for your Post:</label>
+                <input
+                    id="uploadImage"
+                    type="file"
+                    name="upload-image"
+                    onChange={(e) => setImg(e.target.files[0])}
+                    required
+                />
+                <br/><br/>
+                <label for="postText">Write a Caption for your Post:</label>
+                <input
+                    id="postText"
+                    placeholder="Post Text"
+                    value={text}
+                    onChange={(e) => setText(e.target.value)}
+                    required
+                />
                 <br/><br/><br/>
                 <button type="submit" id="sub">Submit</button>
             </form>

@@ -19,7 +19,7 @@ export default function Login({ login }) {
 
         if (res.ok) {
             login(data.user);
-            alert("Log in successful.");
+            alert("Log in Successful.");
             navigate('/');
         }
         else {
@@ -29,15 +29,19 @@ export default function Login({ login }) {
 
     return (
         <form onSubmit={handleSubmit}>
-            <h2>Login</h2>
+            <h3 className="head">Login</h3>
             <br/>
+            <label for="signUpUsername">Username:</label>
             <input
+                id="loginUsername"
                 placeholder="Username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
             />
             <br/>
+            <label for="signUpPassword">Password:</label>
             <input
+                id="loginPassword"
                 type="password"
                 placeholder="Password"
                 value={password}

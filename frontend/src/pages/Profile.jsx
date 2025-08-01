@@ -58,14 +58,14 @@ function Profile({ token }) {
 
     return (
         <div>
-            <h2 id="profileHead">{user.username}'s Profile:</h2>
+            <h3 className="head">{user.username}'s Profile:</h3>
             <div>
                 <p>Username: {user.username}</p>
                 <p>Posts:</p>
                 <p id="profileText">I was unable to get it to filter properly,
                     so please enjoy these two image of a cat in my backyard instead:</p>
-                <img className="cat" src={cat1} />
-                <img className="cat" src={cat2} />
+                <img className="cat" alt="cat on railing" src={cat1} />
+                <img className="cat" alt="same cat on different railing" src={cat2} />
 
                 {/* update forum */}
                 {!update ? (
@@ -79,7 +79,9 @@ function Profile({ token }) {
                             <div className="earHole"/>
                         </div>
                         <form onSubmit={handleUpdate}>
+                            <label for="newUser">New Username:</label>
                             <input
+                                id="newUser"
                                 type="text"
                                 placeholder="New Username"
                                 value={newUsername}

@@ -9,6 +9,16 @@ body {
     color: #3D3D3D;
     font-family: "Space Mono", monospace;
 }
+button {
+    font-family: "Space Mono", monospace;
+    color: #3D3D3D;
+    background-color: #FAD4C0;
+    border-width: 0.1em;
+    border-radius: 0.5em;
+    border: 1.5px #FDF3E7 solid;
+}
+
+/* nav */
 nav {
     text-align: center;
     background-color: #F6C1C7;
@@ -32,18 +42,15 @@ h2 {
         text-decoration: none;
     }
 }
-button {
-    font-family: "Space Mono", monospace;
-    color: #3D3D3D;
-    background-color: #FAD4C0;
-    border-width: 0.1em;
-    border-radius: 0.5em;
-    border: 1.5px #FDF3E7 solid;
-}
 #logout {
     position: fixed;
     top: 1.3em;
     right: 0.7em;
+}
+
+/* heading/header text */
+.head {
+    margin-top: 5em;
 }
 
 /* individual posts */
@@ -115,11 +122,14 @@ button {
 #create {
     position: relative;
 }
+label {
+    margin: 2em 0.5em;
+}
 #createPost {
     background-color: #FAD4C0;
     padding: 1em;
     border-radius: 2em;
-    max-width: 16.5em;
+    max-width: 20em;
     margin: 6em auto;
 
     input {
@@ -132,9 +142,6 @@ button {
 }
 
 /* Profile */
-#profileHead {
-    margin-top: 3em;
-}
 .cat {
     width: 250px;
     height: 250px;
@@ -155,7 +162,7 @@ button {
     }
 }
 #modifyAcc {
-    margin-top: 4em;
+    margin-top: 3em;
 
     button {
         background-color: #F6C1C7;
@@ -189,6 +196,6 @@ button {
 
     /* profile */
     #profileText {
-        margin: auto 10em;
+        margin: auto 15em;
     }
 }
